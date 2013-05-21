@@ -12,6 +12,8 @@
         <module>corpora</module>
         <module>kb-construction</module>
         <module>external-resources</module>
+        <module>core-nlp</module>
+        <module>resource-integration</module>
     </modules>
 
 
