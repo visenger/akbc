@@ -5,16 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>akbc</groupId>
-    <artifactId>akbc</artifactId>
+    <artifactId>de.tuberlin.dima.akbc</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>corpora</module>
-        <module>kb-construction</module>
-        <module>external-resources</module>
         <module>core-nlp</module>
+        <module>data-scrubbing</module>
+        <module>kb-construction</module>
         <module>resource-integration</module>
     </modules>
-
 
 </project>
