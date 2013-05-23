@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>akbc</artifactId>
         <groupId>de.tuberlin.dima.akbc</groupId>
+        <artifactId>akbc</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -15,6 +15,7 @@
     <dependencies>
 
         <!-- NLP models -->
+    <!--
         <dependency>
             <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
             <artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-tagger-en-left3words-distsim-wsj-0-18
@@ -39,7 +40,7 @@
             <artifactId>datafu</artifactId>
             <scope>test</scope>
         </dependency>
-
+    -->
     </dependencies>
 
 </project>
