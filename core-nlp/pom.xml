@@ -12,14 +12,63 @@
     <artifactId>core-nlp</artifactId>
     <name>Core NLP</name>
 
-    <dependencies>
+    <properties>
+        <cdh.version>cdh4.2.1</cdh.version>
+        <dkpro.version>1.4.0</dkpro.version>
+        <elephantbird.version>4.0</elephantbird.version>
+        <guava.version>14.0.1</guava.version>
+        <hadoop.version>2.0.0-${cdh.version}</hadoop.version>
+        <hadoop.local>provided</hadoop.local>
+        <hadoop.client.version>2.0.0-mr1-${cdh.version}</hadoop.client.version>
+        <junit.version>4.11</junit.version>
+        <pig.version>0.10.0-${cdh.version}</pig.version>
+    </properties>
 
-        <!-- NLP models -->
-    <!--
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>${hadoop.client.version}</version>
+            <scope>${hadoop.local}</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-core</artifactId>
+            <version>${hadoop.client.version}</version>
+            <scope>${hadoop.local}</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.pig</groupId>
+            <artifactId>pig</artifactId>
+            <version>${pig.version}</version>
+            <scope>${hadoop.local}</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.pig</groupId>
+            <artifactId>pigunit</artifactId>
+            <version>${pig.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-            <artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-tagger-en-left3words-distsim-wsj-0-18
-            </artifactId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl</artifactId>
+            <version>${dkpro.version}</version>
+        </dependency>
+
+        <!-- NLP models -->
+        <dependency>
+            <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+            <artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-tagger-en-left3words-distsim-wsj-0-18</artifactId>
             <version>20120709.0</version>
         </dependency>
 
@@ -34,13 +83,18 @@
             <artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-ner-en-muc.7class.distsim.crf</artifactId>
             <version>20120709.0</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.linkedin.datafu</groupId>
-            <artifactId>datafu</artifactId>
-            <scope>test</scope>
-        </dependency>
-    -->
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>cloudera</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>interval:1</updatePolicy>
+            </releases>
+            <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+    </repositories>
 
 </project>
