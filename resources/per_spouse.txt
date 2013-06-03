@@ -1,0 +1,15 @@
+married
+'s spouse
+is the spouse of
+'s husband
+is the husband of
+'s wife
+is the wife of
+met her wife
+met his wife
+met her husband
+met his husband 
+divorced
+divorced from
+united in wedlock
+wed
