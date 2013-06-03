@@ -10,7 +10,7 @@ PER	Employee of
 PER	Member of
 PER	Origin
 PER	Other Family
-PER	Parents	/people/person/parents
+PER	Parents
 PER	Schools Attended
 PER	Siblings
 PER	Spouse
@@ -22,7 +22,7 @@ PER	Date of Birth
 PER	Date of Death
 PER	Cause of Death
 PER	Charges
-PER	Religion	/people/person/religion
+PER	Religion
 PER	Title
 ORG	Alternate Names
 ORG	City of Headquarters
