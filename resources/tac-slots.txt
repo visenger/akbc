@@ -1,0 +1,42 @@
+PER	Names
+PER	Children
+PER	Cities of Residence
+PER	City of Birth
+PER	City of Death
+PER	Countries of Residence
+PER	Country of Birth
+PER	Country of Death
+PER	Employee of
+PER	Member of
+PER	Origin
+PER	Other Family
+PER	Parents	/people/person/parents
+PER	Schools Attended
+PER	Siblings
+PER	Spouse
+PER	State or Province of Birth
+PER	State or Province of Death
+PER	States or Provinces of Residence
+PER	Age
+PER	Date of Birth
+PER	Date of Death
+PER	Cause of Death
+PER	Charges
+PER	Religion	/people/person/religion
+PER	Title
+ORG	Alternate Names
+ORG	City of Headquarters
+ORG	Country of Headquarters
+ORG	Founded by
+ORG	Member of
+ORG	Members
+ORG	Parents
+ORG	Political/Religious Affiliation
+ORG	Shareholders
+ORG	State or Province of Headquarters
+ORG	Subsidiaries
+ORG	Top Members/Employees
+ORG	Dissolved
+ORG	Founded
+ORG	Number of Employees/Members
+ORG	Website
