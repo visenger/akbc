@@ -1,0 +1,7 @@
+be a child of
+be the younger child of
+be the youngest child of
+be the older child of
+be the oldest child of
+be a daughter of
+be a son of
