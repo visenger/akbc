@@ -1,5 +1,6 @@
-died
-died on
-deceased on
-death on
-was killed
+# Description: The date of the assigned person’s death.
+<per> died <date>
+<per> died on <date>
+<per> deceased on <date>
+<per> 's death on <date>
+<per> was killed <date>

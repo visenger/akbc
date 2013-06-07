@@ -1,7 +1,8 @@
-be a child of
-be the younger child of
-be the youngest child of
-be the older child of
-be the oldest child of
-be a daughter of
-be a son of
+# Description: The parents of the assigned person. In addition to biological parents, step- parents and adoptive parents are also acceptable answers.
+<per> be a child of <per>
+<per> be the younger child of <per>
+<per> be the youngest child of <per>
+<per> be the older child of <per>
+<per> be the oldest child of <per>
+<per> be a daughter of <per>
+<per> be a son of <per>

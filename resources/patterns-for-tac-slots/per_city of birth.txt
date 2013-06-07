@@ -1,8 +1,9 @@
-born in
-is originally from
-was originally from
-'s home town
-'s home town is
-'s hometown
-was raised in
-grew up in
+# Description: The geopolitical entity at the municipality level (city, town, or village) in which the assigned person was born. This slot must be filled with the name of a city, town, or village.
+<per> born in <city>
+<per> is originally from <city>
+<per> was originally from <city>
+<per> 's home town <city>
+<per> 's home town is <city>
+<per> 's hometown <city>
+<per> was raised in <city>
+<per> grew up in <city>

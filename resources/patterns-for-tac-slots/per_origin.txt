@@ -1,4 +1,5 @@
-is of Y origin
-is a Y citizen
-is a Yman
-is a Ywoman
+# Description: The nationality and/or ethnicity of the assigned person.
+<per> is of <nat/eth> origin
+<per> is a <nat/eth> citizen
+<per> is a <nat/eth>man
+<per> is a <nat/eth>woman

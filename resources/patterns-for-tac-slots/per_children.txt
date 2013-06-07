@@ -1,8 +1,9 @@
-'s child
-'s younger child
-'s youngest child
-'s older child
-'s oldest child
-'s son
-'s daughter
-gave birth to
+# Description: The children of the assigned person, including adopted and step-children.
+<per> 's child <per>
+<per> 's younger child <per>
+<per> 's youngest child <per>
+<per> 's older child <per>
+<per> 's oldest child <per>
+<per> 's son <per>
+<per> 's daughter <per>
+<per> gave birth to <per>

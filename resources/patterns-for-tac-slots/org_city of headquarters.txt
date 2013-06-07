@@ -1,0 +1,6 @@
+# Description: Location of the headquarters of the assigned organization at the city, town, or village level. This slot must be filled with a city, town, or village name.
+<org> be located in <city>
+<city> be the seat of <org> 
+<city> be the seat for <org> 
+<city> be the seat of <org> 
+<org> be located in <city>

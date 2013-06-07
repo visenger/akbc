@@ -1,5 +1,6 @@
-died in
-buried in
-interred at
-interred in
-'s death in
+# Description: The geopolitical entity at the level of city, town, village in which the assigned person died. This slot must be filled with a city, town, or village name.
+<per> died in <city>
+<per> be buried in <city>
+<per> be interred at <city>
+<per> be interred in <city>
+<per> 's death in <city>

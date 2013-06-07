@@ -1,5 +1,6 @@
-'s brother <appos>
-'s sister <appos>
-'s sibling <appos>
-'s sib <appos>
-is siblings with
+# Description: The brothers and sisters of the assigned person.
+<per> 's brother <per+appos>
+<per> 's sister <per+appos>
+<per> 's sibling <per+appos>
+<per> 's sib <per+appos>
+<per> is siblings with <per>

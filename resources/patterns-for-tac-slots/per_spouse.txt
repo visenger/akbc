@@ -1,15 +1,16 @@
-married
-'s spouse
-is the spouse of
-'s husband
-is the husband of
-'s wife
-is the wife of
-met her wife
-met his wife
-met her husband
-met his husband 
-divorced
-divorced from
-united in wedlock
-wed
+# Description: The spouse(s) of the assigned person.
+<per> married <per>
+<per> 's spouse <per>
+<per> is the spouse of <per>
+<per> 's husband <per>
+<per> is the husband of <per>
+<per> 's wife <per>
+<per> is the wife of <per>
+<per> met her wife <per>
+<per> met his wife <per>
+<per> met her husband <per>
+<per> met his husband <per>
+<per> divorced <per>
+<per> divorced from <per>
+<per> united in wedlock <per>
+<per> wed <per>

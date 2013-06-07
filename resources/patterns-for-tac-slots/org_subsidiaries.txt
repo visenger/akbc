@@ -1,0 +1,1 @@
+# Description: Organizations that are subsidiaries of the assigned organization (the inverse of ORG: Parents). Subsidiaries are subsumed under the assigned organization, rather than being distinct entities.

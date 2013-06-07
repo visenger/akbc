@@ -1,3 +1,4 @@
-founded on
-founded in
-formed in
+# Description: The date on which the assigned organization was founded.
+<org> founded on <date>
+<org> founded in <date>
+<org> formed in <date>

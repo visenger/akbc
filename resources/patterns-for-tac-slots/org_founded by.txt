@@ -1,6 +1,7 @@
-founded by
-formed by
-instituted by
-launched by
-set up by
-established by
+# Description: The person, organization, or geopolitical entity that founded the assigned organization.
+<org> founded by <per/org/gpe>
+<org> formed by <per/org/gpe>
+<org> instituted by <per/org/gpe>
+<org> launched by <per/org/gpe>
+<org> set up by <per/org/gpe>
+<org> established by <per/org/gpe>

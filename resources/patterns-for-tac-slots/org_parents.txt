@@ -1,0 +1,8 @@
+# Description: Organizations or geopolitical entities of which the assigned organization is a subsidiary (the inverse of ORG: Subsidiaries). While similar to ORG: Member of, ORG: Parents is different because the assigned organization is subsumed under the parent organization(s), rather than being a distinct entity.
+<org> be part of <org/gpe>
+<org> be a division of <org/gpe>
+<org> be a unit of <org/gpe>
+<org> be a subsidiary of <org/gpe>
+<org> become part of <org/gpe>
+<org> be a division of <org/gpe>
+<org> be a unit of <org/gpe>

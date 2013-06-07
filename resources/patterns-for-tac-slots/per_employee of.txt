@@ -1,7 +1,8 @@
-be employed by
-be an employee of
-work at
-be on the payroll of
-serve in a business
-be salaried
-be permanently appointed
+# Description: The organizations or geopolitical entities (governments) by which the assigned person has been employed.
+<per> be employed by <org/gpe>
+<per> be an employee of <org/gpe>
+<per> work at <org/gpe>
+<per> be on the payroll of <org/gpe>
+<per> serve in <org/gpe>'s business
+<per> be salaried by <org/gpe>
+<per> be permanently appointed by <org/gpe>
